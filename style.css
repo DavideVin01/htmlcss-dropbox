@@ -21,6 +21,21 @@ body{
     content: '';
 }
 
+.btn{
+    background-color: #0061FF;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 1s;
+}
+
+.btn:hover{
+    background-color: #3884ff;
+}
+
+img{
+    max-width: 100%;
+}
+
 .container-big{
     width: 1440px;
     margin: 0 auto;
@@ -31,21 +46,165 @@ body{
     margin: 0 auto;
 }
 
-.container-jumbotron{
-    width: 1160px;
-    height: 600px;
+/* texts */
+
+.text-black{
+    color: #000;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.text-bordeaux{
+    color: #61082B;
+}
+
+/* Font-sizes */
+
+.f-size-14{
+    font-size: 14px;
+}
+
+.f-size-16{
+    font-size: 16px;
+}
+
+.f-size-20{
+    font-size: 20px;
+}
+
+.f-size-40{
+    font-size: 40px;
+}
+
+.f-size-50{
+    font-size: 50px;
+}
+
+.f-size-60{
+    font-size: 60px;
+}
+
+/* Font-weights */
+
+.weight-bold{
+    font-weight: bold;
+}
+.weight-bolder{
+    font-weight: bolder;
+}
+.weight-300{
+    font-weight: 300;
+}
+.weight-500{
+    font-weight: 500;
+}
+.weight-600{
+    font-weight: 500;
+}
+.weight-700{
+    font-weight: 700;
+}
+.weight-800{
+    font-weight: 800;
+}
+.weight-900{
+    font-weight: 900;
+}
+
+/* margins */
+
+.m-bottom-30{
+    margin-bottom: 30px;
+}
+
+.m-bottom-20{
+    margin-bottom: 20px;
+}
+
+.m-bottom-10{
+    margin-bottom: 10px;
 }
 
 /* nav */
 
+nav{
+    width: 100%;
+    position: fixed;
+}
+
 nav #main-menu{
-    vertical-align: middle;
-    width: 1440px;
+    width: 100%;
     height: 80px;
     padding: 25px;
-    background-color: #dedede;
+    background-color: #fff;
 }
 
 #main-menu *{
+    vertical-align: middle;
     display: inline-block;
+}
+
+#main-menu-right-col{
+    width: 750px;
+    text-align: right;
+}
+
+nav #main-menu #logo-container{
+    margin-right: 20px;
+}
+
+nav #main-menu ul li{
+    margin: 0 20px;
+}
+
+nav #main-menu ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+#start-button{
+    font-size: 13px;
+    margin-left: 30px;
+    padding: 4px 15px;
+    width: 75px;
+    height: 25px;
+}
+
+#header-full-page{
+    background-color: #B4D0E7;
+    width: 100%;
+}
+
+.container-jumbotron{
+    margin: 0 auto;
+    width: 1200px;
+    height: 670px;
+    padding: 60px;
+}
+
+#jumbotron-left-side{
+    width: 30%;
+}
+
+#jumpotron-paragraph{
+    text-align: left;
+}
+
+#title-container > h1{
+    margin-top: 100px;
+    width: 1200px;
+}
+
+#free-trial-btn{
+    cursor: pointer;
+    width: 220px;
+    height: 35px;
+    line-height: 35px;
+}
+
+#jumbotron-img > img{
+    padding-left: 35px;
+    width: 700px;
 }
