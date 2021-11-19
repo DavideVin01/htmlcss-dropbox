@@ -74,6 +74,18 @@ img{
     font-size: 20px;
 }
 
+.f-size-25{
+    font-size: 25px;
+}
+
+.f-size-30{
+    font-size: 30px;
+}
+
+.f-size-35{
+    font-size: 35px;
+}
+
 .f-size-40{
     font-size: 40px;
 }
@@ -208,3 +220,19 @@ nav #main-menu ul li a{
     padding-left: 35px;
     width: 700px;
 }
+
+#business-plan-title{
+    margin: 200px 0 50px 0;
+}
+
+label{
+    margin-left: 20px;
+}
+
+.method-column{
+    width: calc(30% - 20px);
+    margin: 0 20px;
+    height: 1220px;
+    background-color: rgb(255, 206, 206);
+}
+
