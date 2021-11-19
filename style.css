@@ -1,0 +1,51 @@
+/* Generics */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+
+.col{
+    float: left;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.container-big{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.container-small{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container-jumbotron{
+    width: 1160px;
+    height: 600px;
+}
+
+/* nav */
+
+nav #main-menu{
+    vertical-align: middle;
+    width: 1440px;
+    height: 80px;
+    padding: 25px;
+    background-color: #dedede;
+}
+
+#main-menu *{
+    display: inline-block;
+}
