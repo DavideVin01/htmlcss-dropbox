@@ -309,8 +309,19 @@ label{
 }
 
 .bottom-rectangle{
-    height: 180px;
+    height: 150px;
     border: 1px solid #000;
     background-color: #fff;
     padding: 20px;
+    position: relative;
+}
+
+.bottom-rectangle .contact-btn{
+    cursor: pointer;
+    width: 220px;
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
