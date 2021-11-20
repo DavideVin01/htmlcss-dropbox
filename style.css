@@ -36,6 +36,10 @@ img{
     max-width: 100%;
 }
 
+address{
+    font-style: normal;
+}
+
 .container-big{
     width: 1440px;
     margin: 0 auto;
@@ -53,6 +57,36 @@ img{
 
 .rectangle{
     width: 900px;
+}
+
+/* backgrounds */
+
+.background-gray{
+    background-color: #F5F5F5;
+}
+.background-lime{
+    background-color: #A2D39B;
+}
+.background-bordeaux{
+    background-color: #61082B;
+}
+.background-dodgerblue{
+    background-color: dodgerblue;
+}
+.background-red{
+    background-color: #f00;
+}
+.background-dark-red{
+    background-color: #D5001F;
+}
+.background-lightblue{
+    background-color: #B4D0E7;
+}
+.background-darkblue{
+    background-color: #0D2481;
+}
+.background-yellow{
+    background-color: #FFD830;
 }
 
 /* texts */
@@ -130,7 +164,7 @@ img{
     font-weight: 500;
 }
 .weight-600{
-    font-weight: 500;
+    font-weight: 600;
 }
 .weight-700{
     font-weight: 700;
@@ -143,6 +177,10 @@ img{
 }
 
 /* margins */
+
+.m-top-30{
+    margin-top: 30px;
+}
 
 .m-bottom-100{
     margin-bottom: 100px;
@@ -263,10 +301,6 @@ nav #main-menu ul li a{
     margin: 200px 0 50px 0;
 }
 
-label{
-    /* margin-left: 20px; */
-}
-
 /* .method-column{
     width: calc(30% - 20px);
     margin-right: 10%;
@@ -348,9 +382,6 @@ label{
 
 /* Partner Finding */
 
-#partner-finding{
-}
-
 #partner-finding-img img{
     width: 500px;
 }
@@ -376,4 +407,82 @@ label{
     width: calc(30% - 20px);
     margin-right: 3%;
     height: 600px;
+}
+
+/* Teams Section */
+
+#teams-section{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.team-logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    width: 100%;
+    filter: invert(1);
+}
+
+/* Squares */
+
+#left-square-big{
+    float: left;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+
+#right-square-big{
+    float: right;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+
+.square{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    transition: border .5s;
+}
+
+.square:hover{
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+.first-square{
+    top: 0;
+    left: 0;
+}
+
+.second-square{
+    top: 0;
+    right: 0;
+}
+
+.third-square{
+    bottom: 0;
+    left: 0;
+}
+
+.fourth-square{
+    bottom: 0;
+    right: 0;
+}
+
+#content-square{
+    position: absolute;
+    top: 15%;
+    left: 29%;
+    width: 540px;
+}
+
+#content-square-logo{
+    width: 150px;
 }
