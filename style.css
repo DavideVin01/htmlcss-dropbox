@@ -87,6 +87,10 @@ img{
     font-size: 20px;
 }
 
+.f-size-22{
+    font-size: 22px;
+}
+
 .f-size-25{
     font-size: 25px;
 }
@@ -142,6 +146,10 @@ img{
 
 .m-bottom-100{
     margin-bottom: 100px;
+}
+
+.m-bottom-50{
+    margin-bottom: 50px;
 }
 
 .m-bottom-40{
@@ -205,6 +213,8 @@ nav #main-menu ul li a{
     height: 25px;
 }
 
+/* Header / Jumbotron */
+
 #header-full-page{
     background-color: #B4D0E7;
     width: 100%;
@@ -240,6 +250,10 @@ nav #main-menu ul li a{
 #jumbotron-img > img{
     padding-left: 35px;
     width: 700px;
+}
+
+.fa-arrow-down{
+    cursor: pointer;
 }
 
 /* Columns */
@@ -324,4 +338,29 @@ label{
     position: absolute;
     right: 20px;
     top: 20px;
+}
+
+/* Partner Finding */
+
+#partner-finding{
+}
+
+#partner-finding-img img{
+    width: 500px;
+}
+
+#partner-finding-content{
+    width: 400px;
+    height: 430px;
+    /* background-color: red; */
+    margin-left: 500px;
+    padding: 30px;
+}
+
+#partner-finding-btn{
+    background-color: #fff;
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
 }
