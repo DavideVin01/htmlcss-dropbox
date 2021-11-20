@@ -46,7 +46,7 @@ img{
     margin: 0 auto;
 }
 
-.buy-now{
+.underline-blue{
     text-decoration: underline;
     color: dodgerblue;
 }
@@ -280,13 +280,14 @@ label{
 }
 
 .method-column .method-name{
-    border: 1px solid black;
+    border: 1px solid lightgray;
     padding: 10px 15px;
     text-align: center;
 }
 
 .method-column .method-description{
-    border: 1px solid black;
+    border: 1px solid lightgray;
+
     padding: 20px 25px;
     height: 90%;
 }
@@ -302,8 +303,6 @@ label{
     width: 50px;
     border-color: lightgray;
 }
-
-
 
 .method-description ul li{
     list-style-type: none;
@@ -323,7 +322,7 @@ label{
 
 .top-rectangle{
     height: 40px;
-    border: 1px solid #000;
+    border: 1px solid lightgray;
     background-color: #fff;
     text-align: center;
     line-height: 40px;
@@ -331,7 +330,7 @@ label{
 
 .bottom-rectangle{
     height: 150px;
-    border: 1px solid #000;
+    border: 1px solid lightgray;
     background-color: #fff;
     padding: 20px;
     position: relative;
@@ -365,9 +364,16 @@ label{
 }
 
 #partner-finding-btn{
+    cursor: pointer;
     background-color: #fff;
     border: 1px solid black;
     width: 150px;
     height: 30px;
     line-height: 30px;
+}
+
+.operations-column{
+    width: calc(30% - 20px);
+    margin-right: 3%;
+    height: 600px;
 }
