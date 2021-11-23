@@ -252,6 +252,7 @@ nav #main-menu{
 #main-menu-right-col{
     width: 750px;
     text-align: right;
+    float: right;
 }
 
 nav #main-menu #logo-container{
@@ -324,11 +325,9 @@ nav #main-menu ul li a{
     margin: 200px 0 50px 0;
 }
 
-/* .method-column{
-    width: calc(30% - 20px);
-    margin-right: 10%;
-    height: 950px;
-} */
+label{
+    margin-right: 20px;
+}
 
 .method-column{
     width: calc(30% - 20px);
@@ -346,7 +345,7 @@ nav #main-menu ul li a{
     border: 1px solid lightgray;
 
     padding: 20px 25px;
-    height: 90%;
+    height: 95%;
 }
 
 .free-trial-method-btn{
@@ -369,6 +368,62 @@ nav #main-menu ul li a{
 .method-description ul li a{
     text-decoration: none;
     font-size: 14px;
+}
+
+ul.icon-list li {
+    list-style-type: none;
+    padding-left: 1.2em;
+    margin-bottom: 20px;
+    text-indent: -1.3rem;
+}
+
+.ul.icon-list li::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.user::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+}
+
+.user-plus::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f234";
+}
+
+.folder::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f07b';
+}
+
+.pencil::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f303';
+}
+
+.smile::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f118';
+}
+
+.check::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #0061FF;
+    content: '\f00c';
+}
+
+.team::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f1ad';
 }
 
 /* Contatta l'ufficio */
@@ -469,6 +524,7 @@ nav #main-menu ul li a{
 }
 
 .square{
+    cursor: pointer;
     position: absolute;
     width: 200px;
     height: 200px;
